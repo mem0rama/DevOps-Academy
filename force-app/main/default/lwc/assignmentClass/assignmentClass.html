@@ -1,0 +1,61 @@
+<template>
+    <div class="slds-form">
+        <div class="slds-form-element slds-form-element_horizontal">
+            <label class="slds-form-element__label" for="horizontal-input-id-01">Name</label>
+            <div class="slds-form-element__control">
+                <input type="text" id="horizontal-input-id-01" placeholder="Guillero Fidel" class="slds-input" />
+            </div>
+        </div>
+        <fieldset class="slds-form-element slds-form-element_horizontal">
+            <legend class="slds-form-element__legend slds-form-element__label">Current Emloyee</legend>
+            <div class="slds-form-element__control">
+                <div class="slds-checkbox">
+                    <input type="checkbox" name="default" id="checkbox-unique-id-35" value="checkbox-unique-id-35" />
+                    <label class="slds-checkbox__label" for="checkbox-unique-id-35">
+                        <span class="slds-checkbox_faux"></span>
+                        <span class="slds-form-element__label">Yes</span>
+                    </label>
+                </div>
+                <div class="slds-checkbox">
+                    <input type="checkbox" name="default" id="checkbox-unique-id-36" value="checkbox-unique-id-36" />
+                    <label class="slds-checkbox__label" for="checkbox-unique-id-36">
+                        <span class="slds-checkbox_faux"></span>
+                        <span class="slds-form-element__label">No</span>
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="slds-form-element slds-form-element_horizontal">
+            <legend class="slds-form-element__legend slds-form-element__label">Gender</legend>
+            <div class="slds-form-element__control">
+                <span class="slds-radio">
+                    <input type="radio" id="radio-17" value="radio-17" name="options" />
+                    <label class="slds-radio__label" for="radio-17">
+                        <span class="slds-radio_faux"></span>
+                        <span class="slds-form-element__label">Female</span>
+                    </label>
+                </span>
+                <span class="slds-radio">
+                    <input type="radio" id="radio-18" value="radio-18" name="options" />
+                    <label class="slds-radio__label" for="radio-18">
+                        <span class="slds-radio_faux"></span>
+                        <span class="slds-form-element__label">Male</span>
+                    </label>
+                </span>
+            </div>
+        </fieldset>
+        <label for="cars">Choose a car:</label>
+
+        <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+        </select>
+        <div>
+            <button class="slds-button ">Guardar</button>
+            <button class="slds-button">Cancelar</button>
+        </div>
+
+    </div>
+</template>
